@@ -1,0 +1,5 @@
+,Accuracy (%),Avg Time (ms),Std Time (ms),Speedup,Throughput (batch/s),Size (MB)
+PyTorch Native,99.05,63.49,15.26,1.0,15.75,1.8
+TensorRT FP32,100.0,1.37,1.99,46.34,731.78,2.95
+TensorRT FP16,100.0,0.43,1.15,147.66,2332.01,2.59
+TensorRT INT8,100.0,0.57,1.26,111.39,1743.09,2.93
